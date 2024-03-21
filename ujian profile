@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website jernita</title>
+    <!--Bagian Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Bagian Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
+      <div class="container">
+        <a class="navbar-brand" href="#">PROTFOLIO</a>
+        <button class="menu-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!---About--->
+    <section id="about">
+      <div class="container mt-4 pt-4">
+        <h1 class="text-center">PT MERPATI JAYA</h1>
+        <div class="row mt-4">
+          <div class="col-lg-4">
+            <img src="images/images foto 6.jpeg.jpeg" class="ukuranGambar" alt="masih pemula" />
+          </div>
+          <div class="col-lg-8">
+            <p>Legalitas Perusahaan</p>
+            <p>
+                PT Merpati Jaya sudah memiliki izin resmi berupa berdasarkan peraturan pemerintah nomor 24 tahun 2018 tentang pelayanan perizinan berusaha terintegrasi secara elektronik. yang dirilis pada 2 januari 2019.
+            </p>
+            <div class="container mt-4 pt-4">
+                <h1 class="text-center">About Me</h1>
+            <p>Deskripsi Perusahaan </p>
+            <p>
+                PT Merpati Jaya adalah sebuah perusahaan yang bergerak dalam bidang jasa pengadaan transportasi baik itu udara, darat, maupun laut.
+                PT Merpati Jaya telah berdiri secara resmi selama 30 tahun. Dengan pengalaman yang telah kami miliki selama 30 tahun ke belakang, kami yakin bahwa perusahaan kami mampu menyajikan pelayanan terbaik untuk pelanggannya.
+                Tidak hanya itu, tenaga ahli yang kami miliki juga menjadi alasan utama mengapa kami yakin bahwa kualitas perusahaan kami nomor satu di bidangnya.
+                Perusahaan kami juga menyediakan informasi lengkap tentang jasa yang kami tawarkan. Dalam informasi tersebut kami akan menyampaikan beberapa fasilitas yang kiranya dapat klien jadikan bahan referensi atau bahan perbandingan. Kami juga siap memberikan pelayanan terbaik kami baik untuk calon klien, maupun klien kami.
+            </p>
+            <div class="col-lg-8">
+                <p>Visi dan Misi Perusahaan</p>
+                <p>
+                    Visi: Menjadi perusahaan travel terbaik dengan mengutamakan kualitas serta kepuasan pelanggan kami.
+                </p>
+                <p>
+                    Misi:
+                    - Menyediakan pelayanan terbaik yang nomor satu
+                    - Menjaga kepuasan pelanggan
+                </p>
+                <div class="container mt-4 pt-4">
+            <div class="row mt-3">
+              <div class="col-md-6">
+                <img src="images/images foto.jpeg.jpeg" class="ukuranGambar" alt="masih pemula" />
+                <p>Identitas Perusahaan</p>
+                <ul>
+                  <li>Nama : PT Merpati Jaya</li>
+                  <li >Alamat Kantor : Jl. Raya Jejalen. Blok B6 no. 29. Kel. Jejalen Jaya. Kec. Tambun Utara. </li>
+                  <li>Kab. Bekasi. Jawa Barat.</li>
+                  <li>No. Telepon :021-88976174</li>
+                  <li>WA : 087881569840</li>
+                  <li>Email : info@merpatijaya.co.id</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+        </div>
+      </div>
+    </section>
+    <!--services-->
+    <section id="services">
+      <div class="container">
+        <h1>services</h1>
+        <div class="row">
+          <div class="col-lg-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera servicesIcon" viewBox="0 0 16 16">
+                  <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z"/>
+                  <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
+                </svg>
+                <h4 class="cardTitle mt-3">fotografi</h4>
+                <p>
+                    Pengiriman multi stop. Kirim barang hingga ke 10 alamat sekaligus agar lebih hemat waktu dan biaya. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-layers servicesIcon" viewBox="0 0 16 16">
+                  <path d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882zm3.515 7.008L14.438 10 8 13.433 1.562 10 4.25 8.567l3.515 1.874a.5.5 0 0 0 .47 0zM8 9.433 1.562 6 8 2.567 14.438 6z"/>
+                </svg>
+                <h4 class="cardTitle mt-3">Website Design</h4>
+                <p>
+                    Hemat biaya operasional karena Anda tidak perlu memiliki kendaraan sendiri untuk pengiriman barang. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4">
+            <div class="card servicesText">
+                <div class="card-body">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock servicesIcon" viewBox="0 0 16 16">
+                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                  </svg>
+                  <h4 class="cardTitle mt-3"> development</h4>
+                  <p>
+                    Telah dipercaya oleh lebih dari 15.000 mitra bisnis dan mengirim orderan lebih dari 1 juta setiap bulan
+                  </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <div class="card servicesText">
+              <div class="card-body">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search servicesIcon" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg>
+                <h4 class="cardTitle mt-3"> seo</h4>
+                <p>
+                    Mitra driver yang terlatih, real time tracking, dan dukungan account manager untuk mendukung pengiriman ribuan bisnis setiap harinya.
+                </p>
+              </div>
+          </div>
+      </div>      
+    <div class="col-lg-4 mt-4">
+      <div class="card servicesText">
+          <div class="card-body">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-shaded servicesIcon" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 14.933a1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"/>
+            </svg>
+            <h4 class="cardTitle mt-3">devops</h4>
+            <p>
+                erum Damri
+            </p>
+          </div>
+      </div>
+  </div>
+  <div class="col-lg-4 mt-4">
+    <div class="card servicesText">
+        <div class="card-body">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wrench servicesIcon" viewBox="0 0 16 16">
+            <path d="M.102 2.223A3.004 3.004 0 0 0 3.78 5.897l6.341 6.252A3.003 3.003 0 0 0 13 16a3 3 0 1 0-.851-5.878L5.897 3.781A3.004 3.004 0 0 0 2.223.1l2.141 2.142L4 4l-1.757.364zm13.37 9.019.528.026.287.445.445.287.026.529L15 13l-.242.471-.026.529-.445.287-.287.445-.529.026L13 15l-.471-.242-.529-.026-.287-.445-.445-.287-.026-.529L11 13l.242-.471.026-.529.445-.287.287-.445.529-.026L13 11z"/>
+          </svg>
+          <h4 class="cardTitle mt-3"> Qa</h4>
+          <p>
+            Pengiriman instan ataupun terjadwal untuk kebutuhan bisnis Anda. 
+          </p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+<!--portofolio-->
+<section id="portfolio">
+  <div class="container mt-3">
+    <h1 class="text-center pov">Portfolio</h1>
+    <div class="row">
+      <div class="col-lg-4 mt-4">
+        <div class="card">
+          <img class="card-img-top" src="images/images foto1.jpeg.jpeg" alt="Card image" style="width: 100%" />
+          <div class="card-body">
+            <h4 class="card-title">Website</h4>
+            <p class="card-text">Tanda terima digital atau e-signature.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-success">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mt-4">
+        <div class="card portfolioContent">
+          <img class="card-img-top" src="images/images foto3.jpeg.jpeg" alt="Card image" style="width: 100%" />
+          <div class="card-body">
+            <h4 class="card-title">Web Design</h4>
+            <p class="card-text">Dapatkan akses laporan pengiriman dan pantau seluruh pengiriman bisnis Anda melalui web-app Merpati Jaya.            </p>
+            <div class="text-center">
+              <a href="#" class="btn btn-success">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mt-4">
+        <div class="card portfolioContent">
+          <img class="card-img-top" src="images/images foto4.jpeg.jpeg" alt="Card image" style="width: 100%" />
+          <div class="card-body">
+            <h4 class="card-title">Godot Engine</h4>
+            <p class="card-text">Kemendagri</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-success">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- contact section-->
+<br />
+<section id="contact">
+<div class="container mt-3 contactContent">
+<h1 class="text-center pov">Contact Me</h1>
+
+<div class="row mt-4">
+  <div class="col-lg-6">
+    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+    <div style="max-width: 100%; overflow: hidden; color: red; width: 500px; height: 500px">
+      <div id="embedmap-canvas" style="height: 100%; width: 100%; max-width: 100%">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3611746397255!2d106.9928399758681!3d-6.216009360885508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d3d49bb1993%3A0x4ae4ef8ec0f3da14!2sJl.%20Rw.%20Jaya%20No.30%2C%20RT.007%2FRW.025%2C%20Harapan%20Jaya%2C%20Kec.%20Bekasi%20Utara%2C%20Kota%20Bks%2C%20Jawa%20Barat%2017124!5e0!3m2!1sid!2sid!4v1707139624658!5m2!1sid!2sid"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+      <style>
+        #embedmap-canvas img {
+          max-width: none !important;
+          background: none !important;
+          font-size: inherit;
+          font-weight: inherit;
+        }
+      </style>
+    </div>
+  </div>
+
+  <div class="col-lg-6">
+    <!-- form fields -->
+    <form>
+      <input type="text" class="form-control form-control-lg" placeholder="Name" />
+      <input type="email" class="form-control mt-3" placeholder="Email" />
+      <input type="text" class="form-control mt-3" placeholder="Subject" />
+      <div class="mb-3 mt-3">
+        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+      </div>
+    </form>
+    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+  </div>
+</div>
+</div>
+</section>
+<!-- footer section-->
+<footer id="footer">
+<div class="container-fluid">
+<!-- social media icons -->
+<div class="social-icons mt-4">
+  <a href="https://www.instagram.com/" target="_blank"
+    ><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+      <path
+        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+      /></svg
+  ></a>
+  <a href="https://web.whatsapp.com/#" target="_blank"
+    ><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+      <path
+        d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+      /></svg
+  ></a>
+  <a href="https://www.facebook.com/" target="_blank"
+    ><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+      <path
+        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+      /></svg
+  ></a>
+  <a href="https://www.tiktok.com/@code_00030" target="_blank"
+    ><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+      <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" /></svg
+  ></a>
+</div>
+</div>
+</footer>
+<!--script-->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="script/js/bootstrap.min.js.map"></script>
+<script>
+$(window).scroll(function () {
+$("nav").toggleClass("scrolled", $(this).scrollTop() > 50);
+});
+</script>
+      </div>
+    </section>
+  </body>
+</html>
